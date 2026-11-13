@@ -26,7 +26,7 @@ function AboutPage() {
       <a className="about-home" href="/">← HOME</a>
       <header className="about-header">
         <a className="about-brand" href="https://www.instagram.com/_briyanii/" target="_blank" rel="noreferrer" aria-label="Briyanii Instagram">
-          <img src="/camel.png" alt="" />
+          <img src="/briyany-logo-camel.png" alt="" />
           <span>Briyanii</span>
         </a>
         <span className="about-divider" aria-hidden="true">—</span>
