@@ -61,7 +61,7 @@ function HomePage() {
   useEffect(() => { const id = setInterval(() => setClock(clockText()), 1000); return () => clearInterval(id); }, []);
   return <main className="page">
     <div className="herd" aria-hidden="true">
-      {herd.map(c => <img key={c.id} className="camel" src="/camel.png" alt=""
+      {herd.map(c => <img key={c.id} className="camel" src="/briyany-logo-camel.png" alt=""
         style={{'--y':`${c.y}vh`,'--s':`${c.size}px`,'--r':`${c.rotate}deg`,
         '--delay':`${c.delay}ms`,'--duration':`${c.duration}ms`,'--opacity':c.opacity}} />)}
     </div>
